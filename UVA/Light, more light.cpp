@@ -19,5 +19,6 @@ int main() {
     while(cin >> n && n){
         ll root = sqrt(n);
       cout << (root * root == n ? "yes\n" : "no\n");
+     //cout << " ";
     }
 }
